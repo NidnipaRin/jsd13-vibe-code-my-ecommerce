@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Form</title>
+  </head>
+  <body>
+    <h1>Register Form</h1>
+    <p>สมัครสมาชิก</p>
+    <form action="" method="get">
+
+      <label>
+        User Name
+        <input id="cname" type="text" name="cname" placeholder="กรุณากรอกชื่อผู้ใช้" required />
+      </label>
+      <p><label>
+        Password
+         <input type="password" name="password" placeholder="กรุณากรอกรหัสผู้ใช้งาน" required />
+      </label> </p>
+      <p><label>
+        E-mail
+         <input type="email" name="email" placeholder="กรุณาใส่อีเมลล์"required />
+      </label> </p>
+
+      <p>เลือก Package</p>
+      <label>
+        ฟรี(Free)
+        <input type="radio" name="package" />
+      </label>
+      <label>
+        พรีเมี่ยม(Premium)
+        <input type="radio" name="package" />
+      </label>
+
+      <br />
+
+      <p>ความสนใจ</p>
+
+      <label>
+        ดูหนัง
+        <input type="checkbox" name="interested" value="movie" />
+      </label>
+
+      <label>
+        ฟังเพลง
+        <input type="checkbox" name="interested" value="music" />
+      </label>
+
+      <label>
+        เล่นเกมส์
+        <input type="checkbox" name="interested" value="game" />
+      </label>
+      <br/>
+      <br/>
+      <button type="submit">ยืนยันการสมัคร</button>
+    </form>
+  </body>
+</html>

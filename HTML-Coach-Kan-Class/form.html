@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Form</title>
+  </head>
+  <body>
+    <h1>Mala-tang</h1>
+    <p>order here</p>
+    <form action="" method="get">
+      <label
+        >กรอกชื่อของคุณ :
+        <input id="cname" type="text" name="cname" required />
+      </label>
+      <p>เลือกน้ำซุป</p>
+      <label>
+        ซุปหม่าล่า
+        <input type="radio" name="soup"  />
+      </label>
+      <label>
+        หม่าล่านมสด
+        <input type="radio" name="soup" />
+      </label>
+      <label>
+        ซุปน้ำดำ
+        <input type="radio" name="soup" />
+      </label>
+
+      <label for="sukisoup">ซุปสุกี้</label>
+      <input type="radio" name="soup" id="sukisoup" />
+      <br />
+      <p>เลือกของที่ชอบ</p>
+
+      <label>
+        เนื้อหมู
+        <input type="checkbox" name="meat" value="pork" />
+      </label>
+
+      <label>
+        เนื้อไก่
+        <input type="checkbox" name="meat" value="chicken" />
+      </label>
+
+      <label>
+        เห็ด
+        <input type="checkbox" name="vegetable" value="mushroom" />
+      </label>
+      <label for="">
+        ผักกวางตุ้ง
+        <input type="checkbox" name="vegetable" value="bokchoy" />
+      </label>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
